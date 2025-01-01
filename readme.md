@@ -4,6 +4,11 @@ This project contains scripts and source files to handle various tasks related t
 
 ## Scripts
 
+### `chmod`
+- Do a `chmod` to give execute permissions to all `.sh` files
+- **Usage**: `chmod +x *.sh`
+
+
 ### `build.sh`
 - **Usage**: `./build.sh <file>`
 - **Description**: Compiles the C++ program located at `<file>/<file>.cpp` using the C++20 standard and `-O2` optimization. It outputs the executable as `<file>/<file>.out`.
